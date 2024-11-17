@@ -68,11 +68,17 @@ Observe the actions of the CEO and verify the Singleton behavior. The program wi
 ### Example Output
 
 Akash is bringing new business to the company
+
 Akash is taking leaves
+
 Akash is attending a kickoff meeting
+
 Akash is bringing new business to the company
+
 Akash is taking leaves
+
 Akash is attending a kickoff meeting
+
 true
 
 ------------------------------------------------------------------------------------------------
