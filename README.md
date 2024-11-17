@@ -44,33 +44,29 @@ Verifies that both references (ref and ref1) point to the same instance.
 
 -----------------------------------------------------------------------------------------------
 
-How to Run the Program
+## How to Run the Program
 Follow these steps to run the program locally:
 
-Clone the Repository
+#### Clone the Repository
 
-bash
-Copy code
 git clone https://github.com/your-username/singleton-design-pattern-example.git
 cd singleton-design-pattern-example
-Compile the Java Files
+
+#### Compile the Java Files
 Ensure you have a Java compiler installed. Compile the files:
 
-bash
-Copy code
 javac CEO.java SingletonAPP.java
-Run the Program
+
+#### Run the Program
 Execute the compiled program:
 
-bash
-Copy code
 java SingletonAPP
-Output
-Observe the actions of the CEO and verify the Singleton behavior. The program will confirm that only one instance is created and shared.
 
-Example Output
-plaintext
-Copy code
+#### Output
+Observe the actions of the CEO and verify the Singleton behavior. The program will confirm that only one instance is created and shared.
+------------------------------------------------------------------------------------------------
+## Example Output
+
 Akash is bringing new business to the company
 Akash is taking leaves
 Akash is attending a kickoff meeting
@@ -78,11 +74,13 @@ Akash is bringing new business to the company
 Akash is taking leaves
 Akash is attending a kickoff meeting
 true
-Key Concepts Demonstrated
+------------------------------------------------------------------------------------------------
+## Key Concepts Demonstrated
 Singleton Design Pattern: Ensures a single instance of a class.
 Lazy Initialization: Instance is created only when requested.
 Encapsulation: Private fields and constructors ensure controlled access.
-Contributing
+------------------------------------------------------------------------------------------------
+## Contributing
 Contributions are welcome! If you find a bug or have an idea to enhance the project:
 
 Fork the repository.
