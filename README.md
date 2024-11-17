@@ -1,8 +1,8 @@
 # Design-Pattern
-Singleton Design Pattern Example
-Overview
+## Singleton Design Pattern Example
+### Overview
 This repository demonstrates the Singleton Design Pattern in Java, using the example of a CEO class. The Singleton pattern ensures that only one instance of a class exists throughout the application, maintaining a single point of control.
-
+-----------------------------------------------------------------------------------------------
 Importance of the Singleton Design Pattern
 The Singleton Design Pattern is widely used in software development for scenarios where a single instance of a class is sufficient and efficient. Key benefits include:
 
