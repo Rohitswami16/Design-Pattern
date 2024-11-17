@@ -61,15 +61,13 @@ javac CEO.java SingletonAPP.java
 Execute the compiled program:
 
 java SingletonAPP
-
+------------------------------------------------------------------------------------------------
 ### Output
 Observe the actions of the CEO and verify the Singleton behavior. The program will confirm that only one instance is created and shared.
 
-------------------------------------------------------------------------------------------------
-
 ### Example Output
 
-##### Akash is bringing new business to the company
+Akash is bringing new business to the company
 Akash is taking leaves
 Akash is attending a kickoff meeting
 Akash is bringing new business to the company
