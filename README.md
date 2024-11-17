@@ -49,7 +49,7 @@ Follow these steps to run the program locally:
 
 ### Clone the Repository
 
-git clone https://github.com/Rohitswami16/singleton-design-pattern-example.git
+git clone (https://github.com/Rohitswami16/Design-Pattern)
 cd singleton-design-pattern-example
 
 ### Compile the Java Files
