@@ -1,40 +1,49 @@
 # Design-Pattern
 ## Singleton Design Pattern Example
 ### Overview
+
 This repository demonstrates the Singleton Design Pattern in Java, using the example of a CEO class. The Singleton pattern ensures that only one instance of a class exists throughout the application, maintaining a single point of control.
+
 -----------------------------------------------------------------------------------------------
-Importance of the Singleton Design Pattern
+## Importance of the Singleton Design Pattern
+
 The Singleton Design Pattern is widely used in software development for scenarios where a single instance of a class is sufficient and efficient. Key benefits include:
 
-Resource Efficiency
+#### Resource Efficiency
 Prevents the creation of multiple instances, conserving memory and other system resources.
-Global Access
+#### Global Access
 Provides a centralized point to access the instance, ensuring consistency across the application.
-Control
+#### Control
 Facilitates behavior management for single-instance classes like CEOs, loggers, and database connection pools.
-Code Structure
+
+---------------------------------------------------------------------------------------------
+
+## Code Structure
 The repository contains two main files:
 
-1. CEO.java
+### 1. CEO.java
 Defines the CEO class and implements the Singleton pattern:
 
-Attributes: Private fields to store CEO details like name and salary.
-Singleton Logic:
+#### Attributes: Private fields to store CEO details like name and salary.
+#### Singleton Logic:
 A static reference ref holds the single instance of the class.
 The getInstance(String name, long salary) method ensures lazy initialization and provides access to the instance.
 Private constructors prevent direct instantiation from outside the class.
-Methods:
+#### Methods:
 bringBussiness(): Simulates bringing business to the company.
 takeLeaves(): Simulates taking leaves.
 attendMetting(): Simulates attending meetings.
 Getters and setters for attributes like name and salary.
-2. SingletonAPP.java
+### 2. SingletonAPP.java
 Demonstrates the Singleton CEO class in action:
 
 Retrieves a single instance of the CEO using CEO.getInstance("Akash", 5000000).
 Calls CEO methods like bringBussiness(), takeLeaves(), and attendMetting().
 Attempts to create another CEO instance (CEO.getInstance("Omkar", 6000000)), which returns the existing instance due to Singleton behavior.
 Verifies that both references (ref and ref1) point to the same instance.
+
+-----------------------------------------------------------------------------------------------
+
 How to Run the Program
 Follow these steps to run the program locally:
 
