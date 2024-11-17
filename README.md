@@ -47,25 +47,27 @@ Verifies that both references (ref and ref1) point to the same instance.
 ## How to Run the Program
 Follow these steps to run the program locally:
 
-#### Clone the Repository
+### Clone the Repository
 
 git clone https://github.com/your-username/singleton-design-pattern-example.git
 cd singleton-design-pattern-example
 
-#### Compile the Java Files
+### Compile the Java Files
 Ensure you have a Java compiler installed. Compile the files:
 
 javac CEO.java SingletonAPP.java
 
-#### Run the Program
+### Run the Program
 Execute the compiled program:
 
 java SingletonAPP
 
-#### Output
+### Output
 Observe the actions of the CEO and verify the Singleton behavior. The program will confirm that only one instance is created and shared.
+
 ------------------------------------------------------------------------------------------------
-## Example Output
+
+### Example Output
 
 Akash is bringing new business to the company
 Akash is taking leaves
