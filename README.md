@@ -69,7 +69,7 @@ Observe the actions of the CEO and verify the Singleton behavior. The program wi
 
 ### Example Output
 
-Akash is bringing new business to the company
+##### Akash is bringing new business to the company
 Akash is taking leaves
 Akash is attending a kickoff meeting
 Akash is bringing new business to the company
@@ -78,9 +78,11 @@ Akash is attending a kickoff meeting
 true
 ------------------------------------------------------------------------------------------------
 ## Key Concepts Demonstrated
+
 Singleton Design Pattern: Ensures a single instance of a class.
 Lazy Initialization: Instance is created only when requested.
 Encapsulation: Private fields and constructors ensure controlled access.
+
 ------------------------------------------------------------------------------------------------
 ## Contributing
 Contributions are welcome! If you find a bug or have an idea to enhance the project:
