@@ -78,6 +78,7 @@ Akash is bringing new business to the company
 Akash is taking leaves
 
 Akash is attending a kickoff meeting
+
 true
 
 ------------------------------------------------------------------------------------------------
