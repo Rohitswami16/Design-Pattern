@@ -7,14 +7,12 @@
 public class SingletonAPP {
 
  public static void main(String[] args) {
-     // Entry point of the program
 
-     // Singleton Design Pattern in Action:
      // Create a single instance of CEO with specific attributes
      CEO ref = CEO.getInstance("Akash", 5000000);
-     ref.bringBussiness(); // CEO performs an action
-     ref.takeLeaves();     // CEO takes leave
-     ref.attendMetting();  // CEO attends a meeting
+     ref.bringBussiness(); 
+     ref.takeLeaves();     
+     ref.attendMetting();  
 
      // Attempt to create another CEO instance with different parameters
      // Singleton ensures this will not create a new object; it will return the existing instance
@@ -28,3 +26,14 @@ public class SingletonAPP {
      System.out.println(ref == ref1); // Output will be true as Singleton enforces a single instance
  }
 }
+
+// Expected Output:
+
+// Akash is bringing new business to the company
+// Akash is taking leaves
+// Akash is attending a kickoff meeting
+// Akash is bringing new business to the company
+// Akash is taking leaves
+// Akash is attending a kickoff meeting
+// true
+
