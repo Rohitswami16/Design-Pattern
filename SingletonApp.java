@@ -1,7 +1,7 @@
 
-//SingletonAPP.java
-//Demonstrating the Singleton Design Pattern in Java
-//Purpose: To ensure only one instance of the CEO class is created throughout the application, 
+// SingletonAPP.java
+// Demonstrating the Singleton Design Pattern in Java
+// Purpose: To ensure only one instance of the CEO class is created throughout the application, 
 //       maintaining a single point of control for global access.
 
 public class SingletonAPP {
